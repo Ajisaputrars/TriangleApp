@@ -27,7 +27,7 @@ class TriangleAppTests: XCTestCase {
   }
 
   func testDetectRandomTriangle() {
-    XCTAssertEqual(try detectTriangle(4, 5, 6), "Segitiga Sembarang")
+    XCTAssertEqual(try detectTriangle(4, 5, 6), "Segitiga Sama Kaki")
   }
   
   func testInequalityTriangle() {
